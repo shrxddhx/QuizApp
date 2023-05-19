@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view){
 
-        ansA.setBackgroundColor(Color.WHITE);
-        ansB.setBackgroundColor(Color.WHITE);
-        ansC.setBackgroundColor(Color.WHITE);
-        ansD.setBackgroundColor(Color.WHITE);
+        //ansA.setBackgroundColor(Color.WHITE);
+        //ansB.setBackgroundColor(Color.WHITE);
+        //ansC.setBackgroundColor(Color.WHITE);
+        //ansD.setBackgroundColor(Color.WHITE);
 
         Button clickedButton=(Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }else{
             selectedAnswer=clickedButton.getText().toString();
-            clickedButton.setBackgroundColor(Color.MAGENTA);
+            //clickedButton.setBackgroundColor(Color.MAGENTA);
         }
     }
     void loadNewQuestion(){
